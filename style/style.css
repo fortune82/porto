@@ -5,6 +5,7 @@
 }
 
 .portfolio h2 {
+    padding: 0 3px;
     margin: 65px 0 48px;
     font-family: 'Libre Franklin';
     font-weight: bold;
@@ -30,6 +31,9 @@
 
 .left,
 .right {
+    position: absolute;
+    top: 320px;
+    left: 380px;
     margin: 225px 0 0 0;
     width: 24px;
     height: 24px;
@@ -40,6 +44,8 @@
 }
 
 .right {
+    top: 545px;
+    left: 410px;
     transform: rotate(180deg);
     margin: 0 0 225px;
 }
@@ -47,14 +53,13 @@
 .gallery {
     columns: 2;
     max-width: 635px;
-    text-align: right;
 }
 
 .gallery img {
     margin-bottom: 26px;
 }
 
-.gallery img:nth-child(1),
-.gallery img:nth-child(2) {
-    margin-right: 30px;
+.gallery img:nth-child(3),
+.gallery img:nth-child(4) {
+    margin-left: 53px;
 }
