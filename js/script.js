@@ -9,7 +9,7 @@
 //     });
 // });
 $(document).ready(function () {
-    $()
+    $(".")
     $('.portfolio').slick({
         infinite: true,
         slideToShow: 3,
