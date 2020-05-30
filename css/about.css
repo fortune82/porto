@@ -1,0 +1,47 @@
+.wrapper {
+  max-width: cover;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 940px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.about {
+  max-height: 545px;
+  padding-bottom: 115px;
+}
+
+.about h2 {
+  font-size: 24px;
+  font-weight: 700;
+  padding: 95px 0 76px;
+}
+
+.about p {
+  font-size: 18px;
+  text-align: justify;
+  line-height: 30px;
+  color: #333333;
+}
+
+@media (max-width: 600px) {
+  .about h2 {
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=about.css.map */
