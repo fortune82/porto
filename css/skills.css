@@ -1,0 +1,23 @@
+.wrapper {
+  max-width: cover;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 940px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+}
+/*# sourceMappingURL=skills.css.map */
