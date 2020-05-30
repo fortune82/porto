@@ -1,7 +1,11 @@
-/* .container {
-    max-width: 1150px;
-    padding: 0 15px;
-    margin: 0 auto;
+/* .element.style {
+    padding: 0;
+    width: 940px;
+} */
+
+.section-slider {
+    padding: 0;
+    border: 1px solid red;
 }
 
 .portfolio h2 {
@@ -15,15 +19,16 @@
 
 .portfolioColumn {
     display: flex;
-    justify-content: space-between;
+
 }
 
-.portfolioDiscr {
-    max-width: 575px;
-}
+/* .portfolioDiscr {
+    max-width: 75px;
+
+} */
 
 .portfolioDiscr p {
-    max-width: 349px;
+    /* max-width: 349px; */
     font-size: 18px;
     line-height: 30px;
     text-align: justify;
@@ -31,9 +36,9 @@
 
 .left,
 .right {
-    position: absolute;
-    top: 320px;
-    left: 380px;
+    position: relative;
+    top: -270px;
+    left: 495px;
     margin: 225px 0 0 0;
     width: 24px;
     height: 24px;
@@ -44,15 +49,15 @@
 }
 
 .right {
-    top: 545px;
-    left: 410px;
+    top: -270px;
+    left: 500px;
     transform: rotate(180deg);
-    margin: 0 0 225px;
 }
 
 .gallery {
     columns: 2;
     max-width: 635px;
+    margin-left: 73px;
 }
 
 .gallery img {
@@ -62,7 +67,7 @@
 .gallery img:nth-child(3),
 .gallery img:nth-child(4) {
     margin-left: 53px;
-} */
+}
 
 
 
