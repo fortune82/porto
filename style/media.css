@@ -1,0 +1,223 @@
+@media (max-width:1000px) {
+    .portfolioDiscr p {
+        margin-right: 25px;
+    }
+}
+
+@media (max-width: 950px) {
+    .diagram {
+        margin-left: 15px;
+    }
+}
+
+
+@media (max-width:850px) {
+    .portfolio {
+        padding-bottom: 0;
+    }
+
+    .portfolioColumn {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn {
+        display: none;
+    }
+
+    .gallery {
+        display: flex;
+        justify-content: center;
+    }
+
+    .gallery1 {
+        margin-right: 10px;
+    }
+
+}
+
+@media (max-width: 825px) {
+    .skills h2 {
+        text-align: center;
+    }
+
+    .skills-diagram {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .skills-diagram img {
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .diagram {
+        margin-left: 0;
+    }
+
+    .portfolio h2 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 800px) {
+    header h1 {
+        font-size: 44px;
+    }
+
+    header .logo-portfolio {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    header nav {
+        padding-top: 95px;
+    }
+
+    header nav .portfolio {
+        padding-left: 0;
+    }
+
+    header nav .portfolio li {
+        padding-right: 60px;
+        padding-left: 0;
+    }
+
+    header .latest {
+        padding-bottom: 140px;
+    }
+}
+
+@media (max-width:650px) {
+    .container {
+        padding: 0 5px;
+    }
+
+    .portfolio h2 {
+        margin: 45px 0 30px;
+    }
+
+    .gallery1 img,
+    .gallery2 img {
+        max-width: 100%;
+    }
+
+    .portfolioDiscr p {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .about h2 {
+        text-align: center;
+    }
+
+    .about h2 {
+        padding: 25px 0 26px;
+    }
+
+    .about p:nth-child(3) {
+        padding-bottom: 25px;
+    }
+
+    .diagram-item {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .skills {
+        padding: 25px 15px 15px 0;
+    }
+
+    .skills h2 {
+        margin-bottom: 25px;
+        padding: 0;
+    }
+
+    .diagram {
+        padding-bottom: 25px;
+    }
+
+    .bottom-menu {
+        padding-bottom: 80px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .bottom-menu .bottom .bottom-menu {
+        padding-bottom: 20px;
+
+    }
+
+    .bottom-menu .bottom nav {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 550px) {
+    header .container-header {
+        max-height: 275px;
+        text-align: center;
+    }
+
+    header .container-header h1 {
+        padding-top: 30px;
+        font-size: 24px;
+    }
+
+    header .container-header h2 {
+        padding-top: 13px;
+        font-size: 16px;
+    }
+
+    header .container-header .latest {
+        padding-top: 40px;
+        font-size: 16px;
+    }
+
+    header .container-header .latest a {
+        font-size: 16px;
+    }
+
+    header .logo-portfolio {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: space-between;
+        flex-direction: space-between;
+        padding-top: 35px;
+    }
+
+    header .logo {
+        padding-top: 45px;
+    }
+
+    header nav .portfolio {
+        display: none;
+        padding-left: 0;
+    }
+
+    header nav .portfolio li {
+        padding-right: 60px;
+        padding-left: 0;
+    }
+
+    header .latest {
+        padding-bottom: 140px;
+    }
+}

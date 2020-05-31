@@ -8,3 +8,9 @@ $(document).ready(function () {
         nextArrow: $('.right')
     });
 })
+
+$('.bottom-arrow-up').click(function () {
+    $("html, body").animate({
+        scrollTop: 0
+    }, 600);
+})
