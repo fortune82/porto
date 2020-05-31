@@ -4,7 +4,7 @@
 }
 
 .container {
-  max-width: 940px;
+  max-width: 1140px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -26,11 +26,16 @@ a:hover {
 }
 
 .skills {
-  padding: 95px 0 125px 0;
+  padding: 95px 15px 125px 0;
 }
 
 .skills h2 {
   margin-bottom: 75px;
+  padding-left: 15px;
+}
+
+.skills img {
+  padding-left: 15px;
 }
 
 .skills-diagram {
@@ -117,9 +122,6 @@ a:hover {
 }
 
 @media (max-width: 950px) {
-  .skills {
-    padding: 0 15px;
-  }
   .diagram {
     margin-left: 15px;
   }

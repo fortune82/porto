@@ -6,10 +6,15 @@
 }
 
 .skills {
-    padding: 95px 0 125px 0;
+    padding: 95px 15px 125px 0;
 
     h2 {
         margin-bottom: 75px;
+        padding-left: 15px;
+    }
+
+    img {
+        padding-left: 15px;
     }
 
 }
@@ -80,9 +85,6 @@
 }
 
 @media(max-width:950px) {
-    .skills {
-        padding: 0 15px;
-    }
 
     .diagram {
         margin-left: 15px;
