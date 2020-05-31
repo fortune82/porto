@@ -8,9 +8,18 @@ $(document).ready(function () {
         nextArrow: $('.right')
     });
 })
+$('.mini-menu').click(function () {
+    $(this).toggleClass('active');
+    $('.menu').toggleClass('show');
+});
 
 $('.bottom-arrow-up').click(function () {
     $("html, body").animate({
         scrollTop: 0
     }, 600);
-})
+});
+
+$('.back').click(function () {
+    $('.menu').removeClass('show');
+    $('.mini-menu').removeClass('active')
+});

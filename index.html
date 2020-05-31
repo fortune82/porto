@@ -16,20 +16,24 @@
 
 <body>
     <div class="wrapper">
-        <header>
+        <header class="home">
             <div class="container container-header">
                 <div class="logo-portfolio">
                     <div class="logo"><a href="">Portfolio</a>
                     </div>
                     <nav>
-                        <!-- <button class="mini-menu">Menu</button> -->
-                        <ul class="portfolio">
-                            <!-- <li class="back">x</li> -->
-                            <li><a href=""> Home</a> </li>
-                            <li><a href="">About</a> </li>
-                            <li><a href="">Skills</a> </li>
-                            <li><a href="">Portfolio</a> </li>
-                            <li><a href=""> Contact</a></li>
+                        <button class="mini-menu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                        <ul class="menu">
+                            <li class="back">&times;</li>
+                            <li><a href="#home"> Home</a> </li>
+                            <li><a href="#about">About</a> </li>
+                            <li><a href="#skills">Skills</a> </li>
+                            <li><a href="#portfolio">Portfolio</a> </li>
+                            <li><a href="#contact"> Contact</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -39,7 +43,7 @@
             </div>
         </header>
 
-        <section>
+        <section id="about">
             <div class="container about">
                 <h2>About</h2>
                 <p>Lorem ipsum dolor sit amet, Arcu, sed nisi, mi, arcu libero phasellus tincidunt. Rhoncus, diam
@@ -53,7 +57,7 @@
             </div>
 
         </section>
-        <section class="section-skills">
+        <section class="section-skills" id="skills">
             <div class="container skills">
                 <h2>Skills</h2>
                 <div class="skills-diagram">
@@ -113,7 +117,7 @@
 
 
         <!-- --------------section 4 slider ----------------->
-        <section class="section-slider">
+        <section class="section-slider" id="portfolio">
             <div class="container slider">
 
                 <div class="portfolio">
@@ -205,7 +209,7 @@
 
         <!-- -------------------------5 section bottom-menu ------------ -->
 
-        <section class="bottom-menu">
+        <section class="bottom-menu" id="contact">
             <div class="container bottom">
                 <h2>Get in Touch</h2>
                 <nav>

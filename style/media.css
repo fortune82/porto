@@ -12,8 +12,144 @@
 
 
 @media (max-width:850px) {
-    .portfolio {
-        padding-bottom: 0;
+    .mini-menu {
+        display: block;
+        position: fixed;
+        left: 35px;
+        top: 88px;
+        z-index: 101px;
+        width: 24px;
+        height: 13px;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        outline: none;
+    }
+
+    .mini-menu span {
+        width: 100%;
+        height: 2px;
+        background: #fff;
+        position: absolute;
+        margin-top: 3px;
+        top: 0;
+        left: 0;
+        transition: .3s;
+    }
+
+    .mini-menu span:first-child {
+        top: 12px;
+    }
+
+    .mini-menu span:last-child {
+        top: 6px;
+    }
+
+    .active span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .active span:last-child {
+        transform: rotate(-45deg);
+    }
+
+    .active span:first-child {
+        transform: rotate(45deg);
+        top: 7px;
+    }
+
+    .menu {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background: #C66C49;
+        top: 0;
+        left: 0;
+        flex-direction: column;
+        justify-content: center;
+        transition: 0.5s;
+        transform: scale(0);
+        z-index: 100;
+    }
+
+    header nav .menu li {
+        padding-left: 0;
+    }
+
+    .show {
+        transform: scale(1);
+        padding: 0;
+    }
+
+    .menu li {
+        text-align: center;
+    }
+
+    .back {
+        display: block;
+    }
+
+    .menu li:first-child {
+        position: fixed;
+        top: 0;
+        right: 0;
+        padding: 0 10px 0 0;
+        font-size: 50px;
+    }
+
+    .menu a {
+        font-size: 40px;
+        line-height: 80px;
+    }
+
+    header .container-header {
+        max-height: 275px;
+        text-align: center;
+    }
+
+    header .container-header h1 {
+        padding-top: 30px;
+        font-size: 24px;
+    }
+
+    header .container-header h2 {
+        padding-top: 13px;
+        font-size: 16px;
+    }
+
+    header .container-header .latest {
+        padding-top: 40px;
+        font-size: 16px;
+    }
+
+    header .container-header .latest a {
+        font-size: 16px;
+    }
+
+    header .logo-portfolio {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: space-between;
+        flex-direction: space-between;
+        padding-top: 35px;
+    }
+
+    header .logo {
+        padding-top: 45px;
+    }
+
+    header nav .portfolio {
+        display: none;
+        padding-left: 0;
+    }
+
+    header nav .portfolio li {
+        padding-right: 60px;
+        padding-left: 0;
+    }
+
+    header .latest {
+        padding-bottom: 140px;
     }
 
     .portfolioColumn {
@@ -167,57 +303,5 @@
         display: flex;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    }
-}
-
-@media (max-width: 550px) {
-    header .container-header {
-        max-height: 275px;
-        text-align: center;
-    }
-
-    header .container-header h1 {
-        padding-top: 30px;
-        font-size: 24px;
-    }
-
-    header .container-header h2 {
-        padding-top: 13px;
-        font-size: 16px;
-    }
-
-    header .container-header .latest {
-        padding-top: 40px;
-        font-size: 16px;
-    }
-
-    header .container-header .latest a {
-        font-size: 16px;
-    }
-
-    header .logo-portfolio {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: space-between;
-        flex-direction: space-between;
-        padding-top: 35px;
-    }
-
-    header .logo {
-        padding-top: 45px;
-    }
-
-    header nav .portfolio {
-        display: none;
-        padding-left: 0;
-    }
-
-    header nav .portfolio li {
-        padding-right: 60px;
-        padding-left: 0;
-    }
-
-    header .latest {
-        padding-bottom: 140px;
     }
 }
