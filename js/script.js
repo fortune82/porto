@@ -23,3 +23,9 @@ $('.back').click(function () {
     $('.menu').removeClass('show');
     $('.mini-menu').removeClass('active')
 });
+
+// ------------при нажатии на ссылку (пункт меню) закрывается меню и бургер превращается из крестика в бургер
+$('.menu a').click(function () {
+    $('.menu').removeClass('show');
+    $('.mini-menu').removeClass('active')
+})
