@@ -42,5 +42,12 @@ a:hover {
   .about h2 {
     text-align: center;
   }
+  .about h2 {
+    padding: 25px 0 26px;
+  }
+}
+
+.about p:nth-child(3) {
+  padding-bottom: 25px;
 }
 /*# sourceMappingURL=about.css.map */

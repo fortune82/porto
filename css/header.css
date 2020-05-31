@@ -24,7 +24,8 @@ a:hover {
 header {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(198, 108, 73, 0.3)), to(rgba(198, 108, 73, 0.3))), url(/img/bg.jpg) no-repeat center/cover;
   background: linear-gradient(rgba(198, 108, 73, 0.3), rgba(198, 108, 73, 0.3)), url(/img/bg.jpg) no-repeat center/cover;
-  min-height: 768px;
+  max-height: 768px;
+  padding-bottom: 245px;
 }
 
 header .container-header h1 {
@@ -133,7 +134,7 @@ header nav .portfolio a:hover {
     text-align: center;
   }
   header .container-header h1 {
-    padding-top: 100px;
+    padding-top: 30px;
     font-size: 24px;
   }
   header .container-header h2 {
@@ -153,6 +154,9 @@ header nav .portfolio a:hover {
         -ms-flex-direction: space-between;
             flex-direction: space-between;
     padding-top: 35px;
+  }
+  header .logo {
+    padding-top: 45px;
   }
   header nav .portfolio {
     display: none;

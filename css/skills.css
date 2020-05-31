@@ -151,7 +151,7 @@ a:hover {
 
 @media (max-width: 600px) {
   h2 {
-    padding-top: 25px;
+    padding: 0;
   }
   .diagram-item {
     -webkit-box-orient: vertical;
@@ -161,6 +161,12 @@ a:hover {
   }
   .diagram {
     padding-bottom: 25px;
+  }
+  .skills {
+    padding: 25px 15px 15px 0;
+  }
+  .skills h2 {
+    margin-bottom: 25px;
   }
 }
 /*# sourceMappingURL=skills.css.map */

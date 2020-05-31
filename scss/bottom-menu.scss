@@ -1,0 +1,59 @@
+@import "_general.scss";
+
+.bottom-menu {
+    background-color: $light-color;
+    margin: 0 auto;
+    padding-bottom: 190px;
+
+    h2 {
+        padding: 95px 0 50px;
+        margin: 0;
+    }
+
+    .bottom {
+        nav {
+            display: flex;
+
+            ul {
+                // padding: 0 300px 0 0;
+                flex-grow: 1;
+
+                &:last-child {
+                    padding: 0;
+                }
+
+                li {
+                    margin-bottom: 20px;
+
+                    a {
+                        color: #000;
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+
+        .bottom-arrow-up {
+            text-align: end;
+            width: 24px;
+            height: 24px;
+            background: url(/img/arrow.png) no-repeat;
+            cursor: pointer;
+            outline: none;
+            transform: rotate(90deg);
+            float: right;
+        }
+
+        @media (max-width: 600px) {
+            .bottom-menu {
+                padding-bottom: 20px;
+            }
+
+            nav {
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+        }
+    }
+}

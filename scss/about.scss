@@ -23,5 +23,16 @@
         h2 {
             text-align: center;
         }
+
+        h2 {
+            padding: 25px 0 26px;
+        }
+    }
+
+    p {
+        &:nth-child(3) {
+            padding-bottom: 25px;
+        }
+
     }
 }

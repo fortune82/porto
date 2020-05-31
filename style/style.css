@@ -63,31 +63,51 @@
 }
 
 @media (max-width:850px) {
+    .portfolio {
+        padding-bottom: 0;
+    }
+
     .portfolioColumn {
         display: flex;
         flex-direction: column;
     }
 
-    .left,
-    .right {
+    .btn {
         display: none;
     }
 
     .gallery {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
     }
 
     .gallery1 {
         margin-right: 10px;
     }
+
+}
+
+@media (max-width:825px) {
+    .portfolio h2 {
+        text-align: center;
+    }
 }
 
 @media (max-width:650px) {
+    .container {
+        padding: 0 5px;
+    }
+
+    .portfolio h2 {
+        margin: 45px 0 30px;
+    }
 
     .gallery1 img,
     .gallery2 img {
-        /* margin-right: 10px; */
         max-width: 100%;
+    }
+
+    .portfolioDiscr p {
+        margin-right: 0;
     }
 }
